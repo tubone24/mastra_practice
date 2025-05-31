@@ -79,7 +79,20 @@ http://localhost:3000 でアプリケーションにアクセスできます。
 
 ## ドキュメント
 
-詳細なハンズオン手順は `docs/` ディレクトリ内のファイルを参照：
+### 新しいハンズオン手順（Mastraファースト）
+
+Mastraの開発サーバーで動作を確認してから、Next.jsに統合する流れ：
+
+1. [01-mastra-quickstart.md](docs/01-mastra-quickstart.md) - Mastraクイックスタート
+2. [02-adding-tools.md](docs/02-adding-tools.md) - ツールの追加
+3. [03-creating-workflows.md](docs/03-creating-workflows.md) - ワークフローの作成
+4. [04-nextjs-integration.md](docs/04-nextjs-integration.md) - Next.jsへの統合
+5. [05-advanced-ui.md](docs/05-advanced-ui.md) - 高度なUIの実装
+6. [06-deployment.md](docs/06-deployment.md) - AWS Amplifyへのデプロイ
+
+### 従来のハンズオン手順（Next.jsファースト）
+
+Next.jsプロジェクトから始める従来の流れ：
 
 1. [01-project-initialization.md](docs/01-project-initialization.md) - プロジェクト初期化
 2. [02-basic-chat-ui.md](docs/02-basic-chat-ui.md) - 基本的なチャットUI
